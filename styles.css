@@ -64,6 +64,33 @@ a:hover {
 	display:none;
 }
 
+.social-list {
+	list-style-type:none;
+}
+
+.social-media {
+	display: inline-block;
+	text-indent: -99999px;
+	margin-left:5em;
+	width:4em;
+	height:4em;
+	background-size:4em 4em;
+	opacity:.8;
+	transition: all .25s;
+}
+
+.instagram {
+	background-image:url(images/Instagram_icon.png);
+}
+
+.linkedin {
+	background-image:url(images/linkedin_icon.png);
+}
+
+.github {
+	background-image:url(images/github_icon.png);
+}
+
 .nav li {
 	padding: 5px 10px 10px 10px;
 }
