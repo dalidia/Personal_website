@@ -162,7 +162,7 @@ header .wrong {
 	display:flex;
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 750px) {
 	.tiles {
 		display: inline-block;
 	}
