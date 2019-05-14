@@ -19,6 +19,8 @@ body {
 main {
 	margin-left:2.5em;
 	margin-right:2.5em;
+	font-height:20em;
+
 }
 
 footer {
@@ -69,26 +71,15 @@ a:hover {
 }
 
 .social-media {
-	display: inline-block;
-	text-indent: -9999em;
-	margin-left:5em;
-	width:4em;
+	display: flex;
+}
+
+.social-icon {
 	height:4em;
-	background-size:4em 4em;
-	opacity:.8;
+	width:4em;
+	opacity:0.8;
 	transition: all .25s;
-}
-
-.instagram {
-	background-image:url(images/Instagram_icon.png);
-}
-
-.linkedin {
-	background-image:url(images/linkedin_icon.png);
-}
-
-.github {
-	background-image:url(images/github_icon.png);
+	margin-right: 2em;
 }
 
 .nav li {
