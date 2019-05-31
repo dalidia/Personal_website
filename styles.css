@@ -20,7 +20,6 @@ main {
 	margin-left:2.5em;
 	margin-right:2.5em;
 	font-height:20em;
-
 }
 
 footer {
@@ -62,6 +61,19 @@ a:hover {
 	font-size: 1.5em;
 }
 
+.nav li {
+	padding: .3em 1em .3em 1em;
+}
+
+.nav a {
+	transition: all .5s;
+	color:white;
+}
+
+.nav a:hover {
+	color:black;
+}
+
 .nav .name {
 	display:none;
 }
@@ -81,20 +93,6 @@ a:hover {
 	transition: all .25s;
 	margin-right: 2em;
 }
-
-.nav li {
-	padding: .3em 1em .3em 1em;
-}
-
-.nav a {
-	transition: all .5s;
-	color:white;
-}
-
-.nav a:hover {
-	color:black;
-}
-
 
 header .profile-pic {
 	border-radius: 40%;
