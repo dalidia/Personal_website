@@ -19,17 +19,8 @@ body {
 main {
 	margin-left:2.5em;
 	margin-right:2.5em;
-	font-height:20em;
-}
-
-footer {
-	margin-left:2.5em;
-	margin-right:2.5em;
-	margin-top: 2.5em;
-	margin-bottom: 2.5em;
-}
-
-br {
+	display:flex;
+	align-items: flex-start;
 }
 
 /* Link Style */
@@ -128,9 +119,9 @@ header .profile-pic:hover {
 
 .section-tile {
 	background-color:#dee2e5;
-	padding:.6em 2.5em .8em 2.5em;
+	padding:.6em 2.3em .8em 2.3em;
 	margin: 1.7em;
-	width:80%;
+	width:90%;
 	border-radius: 1.5em;
 }
 
@@ -143,13 +134,21 @@ header .profile-pic:hover {
 	margin-bottom: 2em;
 }
 
-.tiles {
-	display:flex;
+.projects {
+	background-color: burlywood;
+	padding: .1em 1.5em;
+	margin-bottom: 2em;
+	border-radius: 1em;
 }
 
+
 @media screen and (max-width: 800px) {
-	.tiles {
+	main {
 		display: inline-block;
+	}
+
+	.title-description {
+		line-height: 1.2em;
 	}
 }
 
