@@ -3,6 +3,10 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	height: 100%;
+}
+
 header {
 	text-align:center;
 	line-height: 1.2em;
@@ -42,7 +46,7 @@ a:hover {
 	position:fixed;
 	min-height: 30px;
 	text-align: center;
-	padding: 10px;
+	padding: .5em;
 }
 
 .nav {
@@ -52,12 +56,12 @@ a:hover {
 	list-style-type:none;
 	padding:0;
 	margin: 0 auto;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
-.nav li {
+/* .nav li {
 	padding: .3em 1em .3em 1em;
-}
+} */
 
 .nav a {
 	transition: all .5s;
@@ -92,7 +96,7 @@ a:hover {
 header .profile-pic {
 	border-radius: 40%;
 	border: solid 4px white;
-	width:17em;
+	width:15em;
 	height:15em;
 	margin-top:6em;
 }
@@ -102,7 +106,7 @@ header .profile-pic:hover {
 	transition: all .5s;
 }
 
-.contact-footer {
+.contact-section {
 	margin-left:4.5em;
 	margin-right:2.5em;
 	margin-bottom: 2.5em;
@@ -141,6 +145,29 @@ header .profile-pic:hover {
 	border-radius: 1em;
 }
 
+.list-description {
+	padding-left: 1em;
+}
+
+.copyright {
+	background-color: purple;
+	color: white;
+	padding: .5em 0;
+	text-align: center;
+	font-size: .9em;
+}
+
+.resume-nav-bottom {
+	margin-top: 2.5em;
+}
+
+#work-experience-nav-bottom {
+	margin-top: 5em;
+}
+
+#volunteer-experience-nav-bottom {
+	margin-top: 5em;
+}
 
 @media screen and (max-width: 800px) {
 	main {
@@ -149,6 +176,10 @@ header .profile-pic:hover {
 
 	.title-description {
 		line-height: 1.2em;
+	}
+
+	#volunteer-experience-nav-bottom {
+		margin-top: 1.7em;
 	}
 }
 
